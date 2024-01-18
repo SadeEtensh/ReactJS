@@ -12,3 +12,15 @@ Currently, two official plugins are available:
 ## Card Componenet
 
 ![Alt text](image.png)
+
+## Styling ReactJS
+
+- Inline
+- External
+- module
+
+## Props
+
+- read-only properties that are shared between components.
+- A parent component can send data to the child component
+- <Component key=Value>
