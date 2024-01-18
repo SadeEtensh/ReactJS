@@ -7,7 +7,7 @@ function Card() {
         alt="Profile Picture"
       />
       <h2 className="card-title">Sade The App</h2>
-      <p className="card-text">I'am Sr Application Engineer</p>
+      <p className="card-text">I'm Sr Application Engineer</p>
     </div>
   );
 }
