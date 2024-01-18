@@ -24,3 +24,9 @@ Currently, two official plugins are available:
 - read-only properties that are shared between components.
 - A parent component can send data to the child component
 - <Component key=Value>
+
+- PropTypes: a mechanism that ensures the passed value is of the correct datatype.
+- eg. age = PropTypes.number
+
+- defaultprops:default values for props in case they are not passed from the parent componenet.
+- eg name= "Guest"
