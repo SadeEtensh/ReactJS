@@ -4,14 +4,16 @@ import Food from "./Food";
 import Card from "./comps/Card";
 import Button from "./Button/Button";
 import Student from "./comps/Student";
+import UserGreeting from "./comps/UserGreeting";
 function App() {
   return (
     <>
       {/* <Card /> */}
-      <Button />
+      {/* <Button />
       <Student name="Sadeee" age={30} isStudent={true} />
       <Student name="Hello" age={30} isStudent={false} />
-      <Student />
+      <Student /> */}
+      <UserGreeting isLoggedIn={true} userName="Sade" />
     </>
   );
 }
